@@ -11,7 +11,7 @@ import { NoteComponent } from './view/shared/note/note.component';
   declarations: [
     AppComponent,
     MainComponent,
-    NoteComponent
+    NoteComponent,
   ],
   imports: [
     BrowserModule,

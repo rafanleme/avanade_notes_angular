@@ -28,7 +28,6 @@ export class NotesService {
     note.id = this.generateId.next().value || 1;
     note.date = new Date();
     this.notes.push(note);
-    console.log(this.notes)
     return this.notes;
   }
 

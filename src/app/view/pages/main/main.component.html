@@ -3,7 +3,7 @@
   <form [formGroup]="noteForm" id="form-notes" (ngSubmit)="addNote()" (keypress)="sendByKey($event)">
     <div class="input-group">
       <label>Nota:</label>
-      <textarea type="text" formControlName="text" id="input-cpf" required placeholder="Digite a nota"></textarea>
+      <textarea type="text" formControlName="text" id="input-note" required placeholder="Digite a nota"></textarea>
     </div>
     <button>Salvar</button>
   </form>
